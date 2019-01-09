@@ -1,0 +1,60 @@
+.Landing {
+  display: flex;
+}
+.Democrats {
+  background: #232066;
+}
+.Republicans {
+  background: #e91d0e;
+}
+.party {
+  width: 50%;
+  height: calc(100vh - 60px);
+  font-size: 48px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.party.minimized {
+  width: 35%;
+}
+.party h2 {
+  margin-top: 0;
+  font-size: 34px;
+}
+.party svg {
+  margin-top: 2vh;
+  font-size: 72px;
+}
+.party.maximized {
+  width: 65%;
+}
+.scalediv {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.maximized .scalediv {
+  transform: scale(2);
+  transition: all 0.5s ease-in-out;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.candidates {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5vh 2vw;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,31 @@
+.CandidateBox {
+  opacity: 0;
+  animation: moveInLeft 0.3s linear forwards;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+  border: 1px solid white;
+  padding: 2vh 2vw;
+}
+.CandidateBox h2 {
+  font-size: 18px !important;
+}
+.CandidateBox h3 {
+  font-size: 14px;
+}
+.CandidateBox.first {
+  animation-delay: 0.3s;
+}
+.CandidateBox.second {
+  animation-delay: 0.6s;
+}
+.CandidateBox.third {
+  animation-delay: 0.9s;
+}
+.CandidateBox.fourth {
+  animation-delay: 1.2s;
+}
+.CandidateBox.fifth {
+  animation-delay: 1.4s;
+}
